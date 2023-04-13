@@ -1,0 +1,34 @@
+.outer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: var(--red0);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: inherit;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.text {
+  color: #333;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--red3);
+  margin-bottom: 0.5rem;
+}
+
+.subHeading {
+  margin-bottom: 0.25rem;
+}
+
+.outer img {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  background-color: white;
+}

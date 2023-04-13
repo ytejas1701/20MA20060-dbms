@@ -1,0 +1,92 @@
+.outer {
+    width: 16vw;
+    height: 88vh;
+    position: fixed;
+    left: 0;
+    bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 1.5rem 0.5rem 0rem;
+    gap: 0.25rem;
+}
+
+.section {
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    color: #444;
+    fill: #444;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section:hover:not(.selected) {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: var(--red1);
+    color: #333;
+    fill: #333;
+}
+
+.section svg {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.filterBox {
+    overflow-y: hidden;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    max-height: 100%;
+}
+
+.label {
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: #444;
+    fill: #444;
+    margin: 0.25rem 0;
+}
+
+.option:hover {
+    cursor: pointer;
+    color: #222;
+    fill: #222;
+}
+
+.option svg {
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.button {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 12px;
+    background-color: var(--red2);
+    color: white;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    border-radius: 6px;
+    cursor: pointer;
+}

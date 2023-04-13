@@ -1,0 +1,48 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    overflow-y: scroll;
+    max-height: 240px;
+  }
+  
+  .inner {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    color: #888;
+    gap: 1rem;
+  }
+  
+  #top.inner {
+    font-size: 0.75rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #courseID,
+  #name {
+    color: #333;
+  }
+
+  #name {
+    width: 66%;
+  }
+  
+  #courseID,
+  #attendance  {
+    width: 10%;
+  }
+
+  #year,
+  #grade,
+  #credits {
+    width: 8%;
+  }

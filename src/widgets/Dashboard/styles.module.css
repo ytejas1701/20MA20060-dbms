@@ -1,0 +1,19 @@
+.outer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #888;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}

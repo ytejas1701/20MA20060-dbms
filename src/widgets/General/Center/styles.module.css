@@ -1,0 +1,11 @@
+.outer {
+    background-color: white;
+    height: 90vh;
+    width: 82vw;
+    position: absolute;
+    right: 1vw;
+    bottom: 2vh;
+    border-radius: 24px;
+    padding: 1rem;
+    overflow-y: scroll;
+}
